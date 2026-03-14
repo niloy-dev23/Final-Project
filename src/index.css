@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+@theme{
+  --color-primary:#E2DCC8;
+  --color-transparent-black:rgba(0,0,0,0.4);
+}
+.slick-dots{
+  bottom:203px !important;
+  width:fit-content !important;
+  left:1100px !important;
+}
+.slick-dots li.slick-active button:before {
+    color: #B66449 !important;
+    opacity: 1 !important;
+    font-size: 12px !important;
+}
+.slick-dots button:before {
+    color: white !important;
+    opacity: 1 !important;
+    font-size: 12px !important;
+}
+.slick-prev:before, .slick-next:before {
+    display:none !important;
+}
