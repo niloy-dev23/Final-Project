@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from '../Components/Sidebar'
 import ShowButton from '../Components/ShowButton'
+import MySlider from './../Components/MySlider';
 
 const Awards = () => {
   return (
@@ -22,8 +23,120 @@ const Awards = () => {
               buttonWork='View behance'
             />
           </div>
-          <div>
-            <h1 className='text-[40px] font-medium'>Professional <span>Awards</span></h1>
+          <div className='p-7'>
+            <h1 className='text-[40px] font-medium'>Professional <span className='text-[#B66449]'>Awards</span></h1>
+            <MySlider>
+              <div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+              </div>
+              <div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+              </div>
+              <div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+              </div>
+              <div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+              </div>
+              <div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+                <div className='flex gap-19 border-b border-b-borderColor py-10'>
+                  <div className='w-21.25 h-21.25 bg-gray-400'></div>
+                  <h2 className='w-64.75 text-[22px]'>1ST WINNER CREATIVE DESIGN CHAMPIONSHIP</h2>
+                  <p className='w-94'>For most favorited design voted by NY City Style customers</p>
+                </div>
+              </div>
+            </MySlider>
           </div>
         </div>
     </>

@@ -7,16 +7,14 @@ const MySlider = ({ className, children }) => {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        nextArrow:false,
-        prevArrow:false,
+        nextArrow:<div>nothing</div>,
+        prevArrow:<div>nothing</div>,
         autoplay: true,
         speed: 4000,
         autoplaySpeed: 2000,
-
-        
     };
   return (
-    <div className={`slider-container w-250 ${className}`}>
+    <div className={`slider-container w-250 ${className} `}>
         <Slider {...settings}>
             {children}
         </Slider>
