@@ -7,10 +7,10 @@ import { NavLink } from 'react-router';
 
 const Navbar = () => {
   return (
-    <div className='flex items-center h-22 z-100 border-b border-b-[#66645D] text-primary'>
+    <div className='flex items-center h-22 z-100 border-b border-b-borderColor text-primary'>
         <img src={bgImage} alt="Background" className='absolute top-0 left-0 -z-10'/>
-        <h1 className='text-[38px] p-7 border-r border-r-[#66645D]'>P</h1>
-        <div className='flex text-[16px] pl-7 gap-8 pr-120 border-r border-r-[#66645D] h-full items-center'>
+        <h1 className='text-[38px] p-7 border-r border-r-borderColor'>P</h1>
+        <div className='flex text-[16px] pl-7 gap-8 pr-120 border-r border-r-borderColor h-full items-center'>
             <FaFacebookF />
             <FaTwitter/>
             <FaLinkedin/>

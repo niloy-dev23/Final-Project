@@ -4,6 +4,7 @@
 @theme{
   --color-primary:#E2DCC8;
   --color-transparent-black:rgba(0,0,0,0.4);
+  --color-borderColor:#66645D;
 }
 .slick-dots{
   bottom:203px !important;
